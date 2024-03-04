@@ -2,5 +2,11 @@
 
 ## Creamos rama_readme
 - Creamos la nueva rama y hacemos checkout a ella con `git checkout -b rama_readme`
-- Creamos el readme y los primeros pasos.
+- Creamos el `README.md` y los primeros pasos.
 
+## Revisamos el código de la Interface
+- Primero accedemos a la rama desde el IDE con la opción `New branch from Origin/Interface`
+- Eliminamos el último commit desde el IDE utilizando la opción `Undo commit`
+- Desde la consola hacemos `git status` y seguimos las indicaciones:
+    - `git restore --staged src/Interface.java` para quitarlo del área del stage.
+    - `git restore src/Interface.java` para restaurar el estado que tenía antes del commit (Eliminar el código que había en este commit)
