@@ -10,3 +10,9 @@
 - Desde la consola hacemos `git status` y seguimos las indicaciones:
     - `git restore --staged src/Interface.java` para quitarlo del área del stage.
     - `git restore src/Interface.java` para restaurar el estado que tenía antes del commit (Eliminar el código que había en este commit)
+
+## Hacemos merge de las ramas hacia main
+- Desde el IDE, hacemos `checkout main`. Una vez en main hacemos merge de las ramas que queremos, en este caso:
+- Usamos la opción `Merge "rama" onto main` con cada una de las ramas que queremos (Interface y Datos)
+
+## 
